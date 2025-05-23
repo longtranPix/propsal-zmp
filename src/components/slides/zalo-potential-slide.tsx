@@ -131,26 +131,26 @@ const ZaloPotentialSlide = () => {
               <div className="flex flex-col gap-6">
                 <div className="flex items-center justify-between">
                   <div className="w-1/2">
-                    <div className="stat-value text-blue-600">77.6M</div>
-                    <div className="text-gray-600 font-semibold">Người dùng hoạt động hàng tháng</div>
+                    <div className="stat-value text-blue-600 mb-3">77.6M</div>
+                    <div className="text-gray-600 font-semibold mb-1">Người dùng hoạt động hàng tháng</div>
                     <div className="citation">Nguồn: VNG, 09/2024</div>
                   </div>
                   <div className="w-1/2">
-                    <div className="stat-value text-blue-600">75%</div>
-                    <div className="text-gray-600 font-semibold">Dân số Việt Nam</div>
+                    <div className="stat-value text-blue-600 mb-3">75%</div>
+                    <div className="text-gray-600 font-semibold mb-1">Dân số Việt Nam</div>
                     <div className="citation">Nguồn: Báo Người Đô Thị, 08/2023</div>
                   </div>
                 </div>
 
                 <div className="flex items-center justify-between">
                   <div className="w-1/2">
-                    <div className="stat-value text-blue-600">2 tỷ</div>
-                    <div className="text-gray-600 font-semibold">Tin nhắn gửi đi mỗi ngày</div>
+                    <div className="stat-value text-blue-600 mb-3">2 tỷ</div>
+                    <div className="text-gray-600 font-semibold mb-1">Tin nhắn gửi đi mỗi ngày</div>
                     <div className="citation">Nguồn: Báo Mới, 04/2025</div>
                   </div>
                   <div className="w-1/2">
-                    <div className="stat-value text-blue-600">85%</div>
-                    <div className="text-gray-600 font-semibold">Tỷ lệ thâm nhập thị trường</div>
+                    <div className="stat-value text-blue-600 mb-3">85%</div>
+                    <div className="text-gray-600 font-semibold mb-1">Tỷ lệ thâm nhập thị trường</div>
                     <div className="citation">Nguồn: Báo Nhân Dân, 11/2024</div>
                   </div>
                 </div>
@@ -240,7 +240,7 @@ const ZaloPotentialSlide = () => {
       </div>
 
       <div className="flex items-center justify-end mt-5">
-        <div className="text-gray-400 text-sm">© 2025 Dental Solutions</div>
+        <div className="text-gray-400 text-sm">© Cubable Dental Solutions</div>
       </div>
     </div>
   )

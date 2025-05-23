@@ -26,8 +26,8 @@ const ChallengesSlide = () => {
                 <i className="fas fa-calendar-alt text-blue-600 text-2xl"></i>
               </div>
               <div>
-                <h3 className="text-xl font-bold text-gray-800 mb-2">Quản lý lịch hẹn không hiệu quả</h3>
-                <ul className="text-gray-600 list-disc pl-5 space-y-1">
+                <h3 className="text-lg font-bold text-gray-800 mb-2">Quản lý lịch hẹn không hiệu quả</h3>
+                <ul className="text-gray-600 list-disc pl-5 space-y-1 text-left">
                   <li>40% khách hàng phàn nàn về thời gian chờ đợi</li>
                   <li>30% lịch hẹn bị hủy phút chót không thông báo</li>
                   <li>Khó điều phối lịch trình bác sĩ với nhu cầu khách hàng</li>
@@ -44,8 +44,8 @@ const ChallengesSlide = () => {
                 <i className="fas fa-comments text-red-600 text-2xl"></i>
               </div>
               <div>
-                <h3 className="text-xl font-bold text-gray-800 mb-2">Giao tiếp không liên tục với khách hàng</h3>
-                <ul className="text-gray-600 list-disc pl-5 space-y-1">
+                <h3 className="text-lg font-bold text-gray-800 mb-2">Giao tiếp không liên tục với khách hàng</h3>
+                <ul className="text-gray-600 list-disc pl-5 space-y-1 text-left">
                   <li>65% khách hàng muốn nhận thông tin sau điều trị</li>
                   <li>Thiếu cập nhật về tiến trình và kết quả điều trị</li>
                   <li>Khách hàng khó tiếp cận thông tin y tế cá nhân</li>
@@ -62,8 +62,8 @@ const ChallengesSlide = () => {
                 <i className="fas fa-chart-pie text-purple-600 text-2xl"></i>
               </div>
               <div>
-                <h3 className="text-xl font-bold text-gray-800 mb-2">Cạnh tranh khốc liệt giữa các phòng khám</h3>
-                <ul className="text-gray-600 list-disc pl-5 space-y-1">
+                <h3 className="text-lg font-bold text-gray-800 mb-2">Cạnh tranh khốc liệt giữa các phòng khám</h3>
+                <ul className="text-gray-600 list-disc pl-5 space-y-1 text-left">
                   <li>Hơn 70% khách hàng so sánh các phòng khám online</li>
                   <li>Khó nổi bật trong thị trường bão hòa</li>
                   <li>Chi phí quảng cáo digital tăng 25% mỗi năm</li>
@@ -80,8 +80,8 @@ const ChallengesSlide = () => {
                 <i className="fas fa-user-friends text-green-600 text-2xl"></i>
               </div>
               <div>
-                <h3 className="text-xl font-bold text-gray-800 mb-2">Khó khăn trong việc giữ chân khách hàng</h3>
-                <ul className="text-gray-600 list-disc pl-5 space-y-1">
+                <h3 className="text-lg font-bold text-gray-800 mb-2">Khó khăn trong việc giữ chân khách hàng</h3>
+                <ul className="text-gray-600 list-disc pl-5 space-y-1 text-left">
                   <li>55% khách hàng không quay lại sau lần điều trị đầu</li>
                   <li>Thiếu hệ thống theo dõi và nhắc nhở chăm sóc định kỳ</li>
                   <li>Khó theo dõi lịch sử điều trị dài hạn của khách hàng</li>
@@ -99,7 +99,7 @@ const ChallengesSlide = () => {
           </h3>
           <div className="flex justify-between items-center">
             <div className="flex flex-col items-center p-4">
-              <div className="text-4xl font-bold text-red-500 mb-2">35%</div>
+              <div className="text-4xl! font-bold text-red-500 mb-2">35%</div>
               <div className="text-gray-600 text-center">
                 Tỷ lệ khách hàng
                 <br />
@@ -108,7 +108,7 @@ const ChallengesSlide = () => {
             </div>
             <div className="h-16 border-l border-gray-200"></div>
             <div className="flex flex-col items-center p-4">
-              <div className="text-4xl font-bold text-orange-500 mb-2">20%</div>
+              <div className="text-4xl! font-bold text-orange-500 mb-2">20%</div>
               <div className="text-gray-600 text-center">
                 Thời gian lãng phí
                 <br />
@@ -117,7 +117,7 @@ const ChallengesSlide = () => {
             </div>
             <div className="h-16 border-l border-gray-200"></div>
             <div className="flex flex-col items-center p-4">
-              <div className="text-4xl font-bold text-blue-500 mb-2">45%</div>
+              <div className="text-4xl! font-bold text-blue-500 mb-2">45%</div>
               <div className="text-gray-600 text-center">
                 Khách hàng muốn
                 <br />
@@ -126,7 +126,7 @@ const ChallengesSlide = () => {
             </div>
             <div className="h-16 border-l border-gray-200"></div>
             <div className="flex flex-col items-center p-4">
-              <div className="text-4xl font-bold text-green-500 mb-2">70%</div>
+              <div className="text-4xl! font-bold text-green-500 mb-2">70%</div>
               <div className="text-gray-600 text-center">
                 Ưu tiên trải nghiệm
                 <br />
@@ -139,7 +139,7 @@ const ChallengesSlide = () => {
 
       {/* Footer */}
       <div className="flex items-center justify-end mt-5">
-        <div className="text-gray-400 text-sm">© 2025 Dental Solutions</div>
+        <div className="text-gray-400 text-sm">© Cubable Dental Solutions</div>
       </div>
     </div>
   )

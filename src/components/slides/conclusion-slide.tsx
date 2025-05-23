@@ -84,7 +84,7 @@ const ConclusionSlide = () => {
 
             {/* Testimonial */}
             <div className="mt-6 bg-blue-50 p-5 rounded-xl border border-blue-100 relative">
-              <div className="text-5xl absolute text-blue-200 font-serif -top-4 -left-2">"</div>
+              <div className="text-5xl absolute text-blue-200 font-serif -top-4 -left-2">{`"`}</div>
               <p className="text-gray-700 italic text-sm ml-6">
                 Zalo Mini App đã giúp phòng khám chúng tôi tiết kiệm hàng chục giờ quản lý mỗi tuần và tăng 35% lượt đặt
                 hẹn. Đây là khoản đầu tư sinh lời nhanh nhất từ trước đến nay của chúng tôi.
@@ -218,7 +218,7 @@ const ConclusionSlide = () => {
       </div>
 
       {/* Footer */}
-      <div className="flex justify-end text-gray-400 text-sm">© 2025 Dental Solutions</div>
+      <div className="flex justify-end text-gray-400 text-sm">© Cubable Dental Solutions</div>
     </div>
   )
 }

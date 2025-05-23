@@ -285,7 +285,7 @@ const ROISlide = () => {
 
       {/* Footer */}
       <div className="flex items-center justify-end mt-5">
-        <div className="text-gray-400 text-sm">© 2025 Dental Solutions</div>
+        <div className="text-gray-400 text-sm">© Cubable Dental Solutions</div>
       </div>
     </div>
   )

@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 const MiniAppIntroSlide = () => {
   return (
     <div className="slide flex flex-col p-12">
@@ -19,45 +21,9 @@ const MiniAppIntroSlide = () => {
         {/* Main Content */}
         <div className="flex">
           {/* Left Column - Phone Mockup */}
-          <div className="w-1/3 flex items-center justify-center">
-            <div className="phone-mockup w-64 h-96">
-              <div className="bg-blue-500 text-white p-4 flex items-center">
-                <i className="fas fa-tooth text-2xl mr-2"></i>
-                <div className="text-lg font-bold">Nha Khoa Mini App</div>
-              </div>
-              <div className="p-4">
-                <div className="bg-white rounded-lg p-3 shadow-sm mb-3">
-                  <div className="font-bold text-blue-600">Lịch hẹn sắp tới</div>
-                  <div className="flex items-center text-gray-700 mt-2">
-                    <i className="far fa-calendar mr-2"></i>
-                    <span>15/05/2025 - 10:30</span>
-                  </div>
-                  <div className="flex items-center text-gray-700 mt-1">
-                    <i className="fas fa-user-md mr-2"></i>
-                    <span>BS. Nguyễn Văn A</span>
-                  </div>
-                </div>
-                <div className="flex justify-between mb-3">
-                  <div className="w-1/2 bg-blue-50 rounded-lg p-3 mr-1 text-center">
-                    <i className="fas fa-clipboard-list text-blue-500 mb-1 text-xl"></i>
-                    <div className="text-sm">Dịch vụ</div>
-                  </div>
-                  <div className="w-1/2 bg-cyan-50 rounded-lg p-3 ml-1 text-center">
-                    <i className="fas fa-file-medical text-cyan-500 mb-1 text-xl"></i>
-                    <div className="text-sm">Kết quả</div>
-                  </div>
-                </div>
-                <div className="flex justify-between">
-                  <div className="w-1/2 bg-teal-50 rounded-lg p-3 mr-1 text-center">
-                    <i className="fas fa-credit-card text-teal-500 mb-1 text-xl"></i>
-                    <div className="text-sm">Thanh toán</div>
-                  </div>
-                  <div className="w-1/2 bg-indigo-50 rounded-lg p-3 ml-1 text-center">
-                    <i className="fas fa-comment-medical text-indigo-500 mb-1 text-xl"></i>
-                    <div className="text-sm">Hỗ trợ</div>
-                  </div>
-                </div>
-              </div>
+          <div className="w-1/3 flex items-start justify-center">
+            <div className="phone-mockup h-8/12">
+              <Image src="/images/main-screen.jpg" alt="Zalo Mini App" className="w-full h-full object-cover rounded-lg shadow-lg" />
             </div>
           </div>
 
@@ -124,11 +90,11 @@ const MiniAppIntroSlide = () => {
 
               <div className="app-feature p-4 flex items-start">
                 <div className="feature-icon bg-teal-100">
-                  <i className="fas fa-chart-line text-teal-600 text-xl"></i>
+                  <i className="fa-regular fa-file-pdf text-teal-600 text-xl"></i>
                 </div>
                 <div>
-                  <h3 className="font-bold text-gray-800 mb-1">Phân tích & báo cáo</h3>
-                  <p className="text-gray-600 text-sm">Thống kê khách hàng, tối ưu hoạt động phòng khám</p>
+                  <h3 className="font-bold text-gray-800 mb-1">Hướng dẫn sau điều trị</h3>
+                  <p className="text-gray-600 text-sm">Hướng dẫn khách hàng sau điều trị với mỗi đơn thuốc Nha Sỹ đưa ra</p>
                 </div>
               </div>
             </div>
@@ -138,7 +104,7 @@ const MiniAppIntroSlide = () => {
 
       {/* Footer */}
       <div className="flex items-center justify-end mt-5">
-        <div className="text-gray-400 text-sm">© 2025 Dental Solutions</div>
+        <div className="text-gray-400 text-sm">© Cubable Dental Solutions</div>
       </div>
     </div>
   )

@@ -98,7 +98,7 @@ const MarketSlide = () => {
                   <h3 className="font-bold text-blue-600 text-xl">Quy mô thị trường</h3>
                   <i className="fas fa-chart-line text-blue-500 text-2xl"></i>
                 </div>
-                <p className="text-4xl font-bold text-gray-800 mb-1">4.21 tỷ USD</p>
+                <p className="text-4xl! font-bold text-gray-800 mb-1">4.21 tỷ USD</p>
                 <p className="text-sm text-gray-500">Giá trị thị trường nha khoa năm 2023</p>
               </div>
 
@@ -107,7 +107,7 @@ const MarketSlide = () => {
                   <h3 className="font-bold text-blue-600">Tăng trưởng</h3>
                   <i className="fas fa-arrow-trend-up text-green-500 text-xl"></i>
                 </div>
-                <p className="text-3xl font-bold text-gray-800">4.75%</p>
+                <p className="text-3xl! font-bold text-gray-800">4.75%</p>
                 <p className="text-sm text-gray-500">CAGR trong 5 năm tới</p>
               </div>
 
@@ -116,7 +116,7 @@ const MarketSlide = () => {
                   <h3 className="font-bold text-blue-600">Kỳ vọng</h3>
                   <i className="fas fa-bullseye text-red-500 text-xl"></i>
                 </div>
-                <p className="text-3xl font-bold text-gray-800">2.5 tỷ USD</p>
+                <p className="text-3xl! font-bold text-gray-800">2.5 tỷ USD</p>
                 <p className="text-sm text-gray-500">Dự báo đạt vào năm 2030</p>
               </div>
             </div>
@@ -142,7 +142,7 @@ const MarketSlide = () => {
               </div>
               <div>
                 <h3 className="font-bold text-blue-600 mb-1">Nhu cầu thị trường</h3>
-                <p className="text-3xl font-bold text-gray-800">80%</p>
+                <p className="text-3xl! font-bold text-gray-800">80%</p>
                 <p className="text-sm text-gray-500">Dân số cần dịch vụ nha khoa</p>
               </div>
             </div>
@@ -155,7 +155,7 @@ const MarketSlide = () => {
               </div>
               <div>
                 <h3 className="font-bold text-orange-600 mb-1">Sử dụng dịch vụ</h3>
-                <p className="text-3xl font-bold text-gray-800">20%</p>
+                <p className="text-3xl! font-bold text-gray-800">20%</p>
                 <p className="text-sm text-gray-500">Dân số tiếp cận dịch vụ</p>
               </div>
             </div>
@@ -168,7 +168,7 @@ const MarketSlide = () => {
               </div>
               <div>
                 <h3 className="font-bold text-green-600 mb-1">Tăng trưởng hàng năm</h3>
-                <p className="text-3xl font-bold text-gray-800">10-15%</p>
+                <p className="text-3xl! font-bold text-gray-800">10-15%</p>
                 <p className="text-sm text-gray-500">Dự báo đến năm 2030</p>
               </div>
             </div>
@@ -178,7 +178,7 @@ const MarketSlide = () => {
 
       {/* Footer */}
       <div className="flex items-center justify-end mt-5">
-        <div className="text-gray-400 text-sm">© 2025 Dental Solutions</div>
+        <div className="text-gray-400 text-sm">© Cubable Dental Solutions</div>
       </div>
     </div>
   )

@@ -43,6 +43,7 @@ const IntroSlide = () => {
                 <div className="text-center text-sm">
                   <p className="font-bold">Đặt lịch hẹn</p>
                   <p className="text-xs">Quản lý thông tin</p>
+                  <p className="text-xs">Quản lý thanh toán</p>
                   <p className="text-xs">Theo dõi điều trị</p>
                 </div>
                 <div className="w-full bg-white rounded-lg p-3 shadow-sm">
@@ -57,7 +58,7 @@ const IntroSlide = () => {
 
       {/* Footer */}
       <div className="absolute bottom-0 right-3">
-        <div className="text-gray-400 text-sm">© 2025 Dental Solutions</div>
+        <div className="text-gray-400 text-sm">© Cubable Dental Solutions</div>
       </div>
     </div>
   )

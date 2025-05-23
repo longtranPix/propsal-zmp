@@ -193,7 +193,7 @@ const ImplementationSlide = () => {
       </div>
 
       {/* Footer */}
-      <div className="absolute bottom-6 right-8 text-gray-400 text-sm">© 2025 Dental Solutions</div>
+      <div className="absolute bottom-6 right-8 text-gray-400 text-sm">© Cubable Dental Solutions</div>
     </div>
   )
 }

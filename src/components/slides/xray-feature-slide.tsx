@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 const XrayFeatureSlide = () => {
   return (
     <div className="slide flex flex-col p-12">
@@ -19,113 +21,14 @@ const XrayFeatureSlide = () => {
         {/* Main Content */}
         <div className="flex">
           {/* Left Column - App Screen Mockup */}
-          <div className="w-2/5 pr-6">
-            <div className="app-screen h-full flex flex-col">
+          <div className="w-2/5 flex justify-center">
+            <div className="app-screen flex flex-col h-[96%] w-8/12">
               {/* App Header */}
-              <div className="bg-blue-500 text-white p-4 flex items-center justify-between">
-                <div className="flex items-center">
-                  <i className="fas fa-arrow-left mr-3"></i>
-                  <div className="font-bold">Kết Quả X-quang</div>
-                </div>
-                <i className="fas fa-cloud-download-alt"></i>
-              </div>
-
-              {/* App Content */}
-              <div className="flex-1 p-4 bg-gray-50 overflow-y-auto flex flex-col">
-                {/* Patient Info */}
-                <div className="bg-white rounded-lg shadow p-4 mb-4">
-                  <div className="flex justify-between items-center mb-2">
-                    <div className="flex items-center">
-                      <div className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center mr-3">
-                        <i className="fas fa-user text-blue-500"></i>
-                      </div>
-                      <div>
-                        <div className="font-bold text-gray-800">Nguyễn Văn Bình</div>
-                        <div className="text-xs text-gray-500">ID: BN-20250515</div>
-                      </div>
-                    </div>
-                    <div className="bg-green-100 text-green-600 px-2 py-1 rounded-full text-xs font-semibold">
-                      Mới cập nhật
-                    </div>
-                  </div>
-                </div>
-
-                {/* X-ray Results */}
-                <div className="bg-white rounded-lg shadow p-4 mb-4">
-                  <div className="flex justify-between items-center mb-3">
-                    <div className="font-bold text-gray-800">X-quang Panorama</div>
-                    <div className="text-xs text-gray-500">15/05/2025</div>
-                  </div>
-
-                  {/* X-ray Image */}
-                  <div className="xray-img mb-3 flex items-center justify-center">
-                    <div className="text-white opacity-70 text-center">
-                      <i className="fas fa-tooth text-4xl mb-2"></i>
-                      <div>Hình ảnh X-quang toàn cảnh</div>
-                    </div>
-                  </div>
-
-                  <div className="mb-3">
-                    <div className="text-sm font-semibold text-gray-700 mb-1">Kết luận</div>
-                    <div className="text-sm text-gray-600">
-                      Phát hiện sâu răng mặt nhai số 46, 47. Cần điều trị nha khoa.
-                    </div>
-                  </div>
-
-                  <div className="flex justify-between">
-                    <button className="flex items-center text-blue-500 text-sm font-semibold">
-                      <i className="fas fa-share-alt mr-1"></i> Chia sẻ
-                    </button>
-                    <button className="flex items-center text-blue-500 text-sm font-semibold">
-                      <i className="fas fa-download mr-1"></i> Tải về
-                    </button>
-                  </div>
-                </div>
-
-                {/* Other Tests */}
-                <div className="font-bold text-gray-700 mb-2">Các kết quả khác</div>
-
-                <div className="space-y-3">
-                  <div className="bg-white rounded-lg shadow p-3 flex justify-between items-center">
-                    <div className="flex items-center">
-                      <div className="w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center mr-3">
-                        <i className="fas fa-x-ray text-amber-500"></i>
-                      </div>
-                      <div>
-                        <div className="font-semibold text-gray-800">X-quang cận trâm</div>
-                        <div className="text-xs text-gray-500">10/05/2025</div>
-                      </div>
-                    </div>
-                    <i className="fas fa-chevron-right text-gray-400"></i>
-                  </div>
-
-                  <div className="bg-white rounded-lg shadow p-3 flex justify-between items-center">
-                    <div className="flex items-center">
-                      <div className="w-10 h-10 rounded-full bg-purple-100 flex items-center justify-center mr-3">
-                        <i className="fas fa-vial text-purple-500"></i>
-                      </div>
-                      <div>
-                        <div className="font-semibold text-gray-800">Xét nghiệm nha chu</div>
-                        <div className="text-xs text-gray-500">08/05/2025</div>
-                      </div>
-                    </div>
-                    <i className="fas fa-chevron-right text-gray-400"></i>
-                  </div>
-
-                  <div className="bg-white rounded-lg shadow p-3 flex justify-between items-center">
-                    <div className="flex items-center">
-                      <div className="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center mr-3">
-                        <i className="fas fa-camera text-green-500"></i>
-                      </div>
-                      <div>
-                        <div className="font-semibold text-gray-800">Hình ảnh nội khoa</div>
-                        <div className="text-xs text-gray-500">01/05/2025</div>
-                      </div>
-                    </div>
-                    <i className="fas fa-chevron-right text-gray-400"></i>
-                  </div>
-                </div>
-              </div>
+              <Image
+                src="/images/x-quang.jpg"
+                alt="Appointment Feature Screen"
+                className="w-full rounded-lg shadow-lg"
+              />
             </div>
           </div>
 
@@ -182,17 +85,17 @@ const XrayFeatureSlide = () => {
             {/* Stats */}
             <div className="grid grid-cols-3 gap-4 mb-6">
               <div className="stat-box p-4 text-white text-center">
-                <div className="text-4xl font-bold mb-1">90%</div>
+                <div className="text-4xl! font-bold mb-1">90%</div>
                 <div className="text-sm">khách hàng đánh giá cao tính năng xem X-quang</div>
               </div>
 
               <div className="stat-box p-4 text-white text-center">
-                <div className="text-4xl font-bold mb-1">85%</div>
+                <div className="text-4xl! font-bold mb-1">85%</div>
                 <div className="text-sm">giảm khiếu nại về mất phim X-quang</div>
               </div>
 
               <div className="stat-box p-4 text-white text-center">
-                <div className="text-4xl font-bold mb-1">35%</div>
+                <div className="text-4xl! font-bold mb-1">35%</div>
                 <div className="text-sm">tăng hiệu quả tư vấn điều trị</div>
               </div>
             </div>
@@ -205,19 +108,19 @@ const XrayFeatureSlide = () => {
               </h3>
               <ul className="space-y-2">
                 <li className="flex items-start">
-                  <i className="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                  <i className="fas fa-check-circle text-green-500  mr-2"></i>
                   <span className="text-gray-700">
                     Giảm 75% chi phí lưu trữ và quản lý phim X-quang vật lý, tiết kiệm không gian và nhân lực
                   </span>
                 </li>
                 <li className="flex items-start">
-                  <i className="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                  <i className="fas fa-check-circle text-green-500 mr-2"></i>
                   <span className="text-gray-700">
                     Tăng 40% hiệu quả giải thích kế hoạch điều trị khi bệnh nhân có thể xem kết quả trên điện thoại
                   </span>
                 </li>
                 <li className="flex items-start">
-                  <i className="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                  <i className="fas fa-check-circle text-green-500 mr-2"></i>
                   <span className="text-gray-700">
                     Thu hút khách hàng mới với công nghệ hiện đại, tạo lợi thế cạnh tranh so với các phòng khám truyền
                     thống
@@ -231,7 +134,7 @@ const XrayFeatureSlide = () => {
 
       {/* Footer */}
       <div className="flex items-center justify-end mt-5">
-        <div className="text-gray-400 text-sm">© 2025 Dental Solutions</div>
+        <div className="text-gray-400 text-sm">© Cubable Dental Solutions</div>
       </div>
     </div>
   )
