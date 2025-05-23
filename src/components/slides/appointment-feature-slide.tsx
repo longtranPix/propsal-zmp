@@ -24,6 +24,9 @@ const AppointmentFeatureSlide = () => {
           <div className="w-2/5 flex justify-center">
             <div className="app-screen w-8/12 flex flex-col">
               <Image
+                objectFit="cover"
+                width={500}
+                height={500}
                 src="/images/calendar.jpg"
                 alt="Appointment Feature Screen"
                 className="w-full rounded-lg shadow-lg"

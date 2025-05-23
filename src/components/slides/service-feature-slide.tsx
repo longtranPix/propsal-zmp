@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 const ServiceFeatureSlide = () => {
   return (
     <div className="slide flex flex-col p-12">
@@ -22,7 +24,10 @@ const ServiceFeatureSlide = () => {
           <div className="w-2/5 flex justify-center">
             <div className="app-screen flex flex-col h-[99%] w-8/12">
               {/* App Header */}
-              <img
+              <Image
+                objectFit="cover"
+                width={500}
+                height={500}
                 src="/images/dich-vu.jpg"
                 alt="Appointment Feature Screen"
                 className="w-full rounded-lg shadow-lg"

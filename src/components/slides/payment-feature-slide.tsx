@@ -25,6 +25,9 @@ const PaymentFeatureSlide = () => {
             <div className="app-screen flex flex-col h-[96%] w-8/12">
               {/* App Header */}
               <Image
+                objectFit="cover"
+                width={500}
+                height={500}
                 src="/images/thanh-toan.jpg"
                 alt="Appointment Feature Screen"
                 className="w-full rounded-lg shadow-lg"

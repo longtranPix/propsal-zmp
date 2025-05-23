@@ -22,8 +22,15 @@ const MiniAppIntroSlide = () => {
         <div className="flex">
           {/* Left Column - Phone Mockup */}
           <div className="w-1/3 flex items-start justify-center">
-            <div className="phone-mockup h-8/12">
-              <Image src="/images/main-screen.jpg" alt="Zalo Mini App" className="w-full h-full object-cover rounded-lg shadow-lg" />
+            <div className="phone-mockup h-full">
+              <Image
+                src="/images/main-screen.jpg"
+                alt="Zalo Mini App"
+                objectFit="cover"
+                className="w-full h-full object-cover rounded-lg shadow-lg" 
+                height={500}
+                width={300}
+                />
             </div>
           </div>
 

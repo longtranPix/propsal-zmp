@@ -28,6 +28,9 @@ const AdditionalFeaturesSlide = () => {
                 src="/images/chuc-nang-khac.jpg"
                 alt="Appointment Feature Screen"
                 className="w-full rounded-lg shadow-lg"
+                objectFit="cover"
+                width={500}
+                height={500}
               />
             </div>
           </div>

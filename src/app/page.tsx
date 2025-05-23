@@ -1,7 +1,7 @@
 "use client"
 
 import { useEffect } from "react"
-import Reveal from "reveal.js"
+// import Reveal from "reveal.js"
 import "reveal.js/dist/reveal.css"
 
 import IntroSlide from "@/components/slides/intro-slide"
@@ -19,23 +19,25 @@ import ImplementationSlide from "@/components/slides/implementation-slide"
 import ConclusionSlide from "@/components/slides/conclusion-slide"
 
 export default function Home() {
+
   useEffect(() => {
-    const deck = new Reveal({
-      hash: true,
-      controls: true,
-      progress: true,
-      center: false,
-      transition: "slide",
-      width: 1180,
-      height: 820,
-      margin: 0,
+    import("reveal.js").then((Reveal) => {
+      const deck = new Reveal.default({
+        hash: true,
+        controls: true,
+        progress: true,
+        center: false,
+        transition: "slide",
+        width: 1180,
+        height: 820,
+        margin: 0,
+      })
+      deck.initialize()
+      return () => {
+        deck.destroy()
+      }
     })
 
-    deck.initialize()
-
-    return () => {
-      deck.destroy()
-    }
   }, [])
 
   return (
