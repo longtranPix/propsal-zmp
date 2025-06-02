@@ -28,7 +28,7 @@ const ZaloPotentialSlide = () => {
               {
                 data: [65, 35, 55, 35, 10],
                 backgroundColor: ["#3b82f6", "#60a5fa", "#93c5fd", "#bfdbfe", "#dbeafe"],
-                borderWidth: 2,
+                borderWidth: 2
               },
             ],
           },
@@ -41,6 +41,9 @@ const ZaloPotentialSlide = () => {
                 labels: {
                   boxWidth: 15,
                   padding: 15,
+                  font:{
+                    size: 14
+                  }
                 },
               },
             },
@@ -132,12 +135,12 @@ const ZaloPotentialSlide = () => {
                 <div className="flex items-center justify-between">
                   <div className="w-1/2">
                     <div className="stat-value text-blue-600 mb-3">77.6M</div>
-                    <div className="text-gray-600 font-semibold mb-1">Người dùng hoạt động hàng tháng</div>
+                    <div className="text-sm! text-gray-600 font-semibold mb-1">Người hoạt động hàng tháng</div>
                     <div className="citation">Nguồn: VNG, 09/2024</div>
                   </div>
                   <div className="w-1/2">
                     <div className="stat-value text-blue-600 mb-3">75%</div>
-                    <div className="text-gray-600 font-semibold mb-1">Dân số Việt Nam</div>
+                    <div className="text-sm! text-gray-600 font-semibold mb-1">Dân số Việt Nam</div>
                     <div className="citation">Nguồn: Báo Người Đô Thị, 08/2023</div>
                   </div>
                 </div>
@@ -145,12 +148,12 @@ const ZaloPotentialSlide = () => {
                 <div className="flex items-center justify-between">
                   <div className="w-1/2">
                     <div className="stat-value text-blue-600 mb-3">2 tỷ</div>
-                    <div className="text-gray-600 font-semibold mb-1">Tin nhắn gửi đi mỗi ngày</div>
+                    <div className="text-sm! text-gray-600 font-semibold mb-1">Tin nhắn gửi đi mỗi ngày</div>
                     <div className="citation">Nguồn: Báo Mới, 04/2025</div>
                   </div>
                   <div className="w-1/2">
                     <div className="stat-value text-blue-600 mb-3">85%</div>
-                    <div className="text-gray-600 font-semibold mb-1">Tỷ lệ thâm nhập thị trường</div>
+                    <div className="text-sm! text-gray-600 font-semibold mb-1">Tỷ lệ thâm nhập thị trường</div>
                     <div className="citation">Nguồn: Báo Nhân Dân, 11/2024</div>
                   </div>
                 </div>
@@ -160,7 +163,7 @@ const ZaloPotentialSlide = () => {
             <div className="stat-card p-6">
               <div className="flex items-center justify-between">
                 <h3 className="text-xl font-bold text-gray-800">Phân bổ người dùng Zalo</h3>
-                <div className="text-sm text-gray-500">Nguồn: Báo cáo năm 2024</div>
+                <div className="text-sm! text-gray-500">Nguồn: Báo cáo năm 2024</div>
               </div>
               <div style={{ height: "220px" }}>
                 <canvas id="zaloUserChart"></canvas>
@@ -175,27 +178,27 @@ const ZaloPotentialSlide = () => {
                 <i className="fas fa-mobile-alt text-blue-600 mr-3"></i>
                 Tiềm năng Zalo Mini App
               </h2>
-              <p className="text-gray-600 mb-4">
+              <p className="text-base! text-gray-600 mb-4">
                 Mini App là các ứng dụng nhẹ (dưới 10MB) chạy trong Zalo, không cần cài đặt thêm, giúp tiếp cận ngay 77+
                 triệu người dùng.
               </p>
 
               <div className="bg-blue-50 p-4 rounded-lg mb-4">
-                <h4 className="font-bold text-gray-800 mb-2">Thành công của Mini App trong các lĩnh vực:</h4>
-                <ul className="text-gray-600 space-y-2">
-                  <li className="flex items-center">
+                <h4 className="text-base! font-bold text-gray-800 mb-2">Thành công của Mini App trong các lĩnh vực:</h4>
+                <ul className="text-gray-600 space-y-2 text-left">
+                  <li className="text-base! flex items-center">
                     <i className="fas fa-bus text-blue-500 mr-2"></i>
                     <span>
                       <b>GoBus TPHCM</b>: 245,000 người dùng chỉ sau 40 ngày
                     </span>
                   </li>
-                  <li className="flex items-center">
+                  <li className="text-base! flex items-center">
                     <i className="fas fa-building text-blue-500 mr-2"></i>
                     <span>
                       <b>Đồng Nai Smart</b>: 200,000 người dùng sau 2 tháng
                     </span>
                   </li>
-                  <li className="flex items-center">
+                  <li className="text-base! flex items-start">
                     <i className="fas fa-cloud-sun-rain text-blue-500 mr-2"></i>
                     <span>
                       <b>Phòng chống thiên tai</b>: 630,000 người dùng sau 1 năm
@@ -206,12 +209,12 @@ const ZaloPotentialSlide = () => {
               </div>
 
               <div className="bg-gradient-to-r from-blue-500 to-cyan-400 text-white p-4 rounded-lg">
-                <h4 className="font-bold mb-2">Tại sao Mini App hiệu quả cho ngành nha khoa?</h4>
-                <ul className="space-y-1 pl-6 list-disc">
-                  <li>Tiếp cận khách hàng trên nền tảng họ đã dùng hàng ngày</li>
-                  <li>Không tốn chi phí cài đặt và vận hành ứng dụng riêng</li>
-                  <li>Tích hợp hệ sinh thái Zalo (chat, thông báo, thanh toán)</li>
-                  <li>Tăng sự tiện lợi và giảm rào cản công nghệ với người dùng</li>
+                <h4 className="text-lg! font-bold mb-2">Tại sao Mini App hiệu quả cho ngành nha khoa?</h4>
+                <ul className="space-y-1 pl-6 list-disc text-left">
+                  <li className="text-sm!">Tiếp cận khách hàng trên nền tảng họ đã dùng hàng ngày</li>
+                  <li className="text-sm!">Không tốn chi phí cài đặt và vận hành ứng dụng riêng</li>
+                  <li className="text-sm!">Tích hợp hệ sinh thái Zalo (chat, thông báo, thanh toán)</li>
+                  <li className="text-sm!">Tăng sự tiện lợi và giảm rào cản công nghệ với người dùng</li>
                 </ul>
               </div>
             </div>

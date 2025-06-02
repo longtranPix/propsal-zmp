@@ -24,7 +24,7 @@ const IntroSlide = () => {
 
         <div className="w-1/2 gradient-border mb-6"></div>
 
-        <h2 className="subtitle text-2xl text-center mb-12">
+        <h2 className="subtitle text-2xl! text-center mb-12">
           Giải pháp toàn diện cho quản lý chăm sóc khách hàng nha khoa
         </h2>
 
@@ -32,7 +32,7 @@ const IntroSlide = () => {
         <div className="flex justify-center items-center mb-8">
           <div
             className="phone-mockup bg-white p-1.5 border-6 border-gray-800"
-            style={{ width: "180px", height: "360px" }}
+            style={{ width: "250px", height: "470px" }}
           >
             <div className="bg-blue-50 w-full h-full flex flex-col">
               <div className="bg-blue-500 text-white p-3 text-center font-semibold">Zalo Mini App</div>
@@ -40,11 +40,11 @@ const IntroSlide = () => {
                 <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center">
                   <i className="fas fa-tooth text-blue-500 text-2xl"></i>
                 </div>
-                <div className="text-center text-sm">
-                  <p className="font-bold">Đặt lịch hẹn</p>
-                  <p className="text-xs">Quản lý thông tin</p>
-                  <p className="text-xs">Quản lý thanh toán</p>
-                  <p className="text-xs">Theo dõi điều trị</p>
+                <div className="text-center text-lg">
+                  <p className="font-bold text-lg!">Đặt lịch hẹn</p>
+                  <p className="text-lg!">Giới thiệu dịch vụ</p>
+                  <p className="text-lg!">Quản lý thanh toán</p>
+                  <p className="text-lg!">Theo dõi điều trị</p>
                 </div>
                 <div className="w-full bg-white rounded-lg p-3 shadow-sm">
                   <div className="h-4 w-3/4 bg-gray-200 rounded mb-2"></div>
