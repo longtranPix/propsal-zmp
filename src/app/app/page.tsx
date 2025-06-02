@@ -14,7 +14,6 @@ import ServiceFeatureSlide from "@/components/slides/service-feature-slide"
 import PaymentFeatureSlide from "@/components/slides/payment-feature-slide"
 import XrayFeatureSlide from "@/components/slides/xray-feature-slide"
 import AdditionalFeaturesSlide from "@/components/slides/additional-features-slide"
-import ROISlide from "@/components/slides/roi-slide"
 import ImplementationSlide from "@/components/slides/implementation-slide"
 import ConclusionSlide from "@/components/slides/conclusion-slide"
 
@@ -73,9 +72,9 @@ export default function Home() {
         <section>
           <AdditionalFeaturesSlide />
         </section>
-        <section>
+        {/* <section>
           <ROISlide />
-        </section>
+        </section> */}
         <section>
           <ImplementationSlide />
         </section>
